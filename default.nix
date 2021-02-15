@@ -28,6 +28,7 @@ let
       pkgs.haskellPackages.hlint
       pkgs.haskellPackages.hasktags
       pkgs.niv
+      pkgs.direnv
       pkgs.nixpkgs-fmt
     ];
     withHoogle = true;
